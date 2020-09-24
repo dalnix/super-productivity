@@ -1,0 +1,1165 @@
+{
+  "APP": {
+    "B_INSTALL": {
+      "IGNORE": "Ignorera",
+      "INSTALL": "Installera",
+      "MSG": "Vill du installera Super Productivity som en PWA?"
+    },
+    "B_OFFLINE": "Du är frånkopplad ifrån internet. Synkronisering och hämtning av data från problemleverantörer fungerar inte.",
+    "D_INITIAL": {
+      "TITLE": "Välkommen till v{{nr}}"
+    },
+    "UPDATE_MAIN_MODEL": "Super Productivity har fått en stor uppdatering! Viss migrering av dina data krävs. Observera att detta gör din data inkompatibla med äldre versioner av appen.",
+    "UPDATE_MAIN_MODEL_NO_UPDATE": "Ingen modell uppgradering vald. Notear att du endera måste nedgradera till föregående version, om du inte vill köra modell uppgraderingen.",
+    "UPDATE_WEB_APP": "Ny version tillgänglig. Ladda ny version?"
+  },
+  "BL": {
+    "NO_TASKS": "Det finns för närvarande inga uppgifter i listan över ej utförda arbeten."
+  },
+  "DATETIME_INPUT": {
+    "IN": "om {{time}}",
+    "TOMORROW": "imorgon {{time}}"
+  },
+  "DATETIME_SCHEDULE": {
+    "LATER_TODAY": "Senare idag",
+    "NEXT_WEEK": "Nästa vecka",
+    "PLACEHOLDER": "Välj ett datum",
+    "PRESS_ENTER_AGAIN": "Tryck Return igen för att spara",
+    "TOMORROW": "Imorgon"
+  },
+  "F": {
+    "ATTACHMENT": {
+      "DIALOG_EDIT": {
+        "ADD_ATTACHMENT": "Lägg till bilaga",
+        "EDIT_ATTACHMENT": "Redigera bilaga",
+        "LABELS": {
+          "FILE": "Filsökväg",
+          "IMG": "Bild",
+          "LINK": "Url"
+        },
+        "SELECT_TYPE": "Välj typ",
+        "TYPES": {
+          "FILE": "Fil (öppnas av systemets standard)",
+          "IMG": "Bild (visas som tumnagel)",
+          "LINK": "Länk (öppnar i webbläsaren)"
+        }
+      }
+    },
+    "BOOKMARK": {
+      "BAR": {
+        "ADD": "Lägg till bokmärke",
+        "DROP": "Släpp här för att lägga till ett bokmärke",
+        "EDIT": "Redigera bokmärken",
+        "NO_BOOKMARKS": "Du har inga projektet bokmärken. Lägg till ett genom att dra och släppa eller genom att klicka på 'plus' knappen."
+      },
+      "DIALOG_EDIT": {
+        "ADD_BOOKMARK": "Lägg till bokmärke",
+        "EDIT_BOOKMARK": "Redigera bokmärke",
+        "LABELS": {
+          "COMMAND": "Kommando",
+          "FILE": "Filsökväg",
+          "IMG": "Bild",
+          "LINK": "Url"
+        },
+        "SELECT_ICON": "Väj ikon",
+        "SELECT_TYPE": "Välj typ",
+        "TYPES": {
+          "COMMAND": "Kommando (anpassat skalkommando)",
+          "FILE": "Fil (öppnas av systemets standard)",
+          "IMG": "Bild (visas som tumnagel)",
+          "LINK": "Länk (öppnar i webbläsaren)"
+        }
+      }
+    },
+    "CONFIG": {
+      "S": {
+        "UPDATE_SECTION": "Uppdaterade inställningar för <strong>{{sectionKey}}</strong>"
+      }
+    },
+    "DROPBOX": {
+      "C": {
+        "EMPTY_SYNC": "Du försöker synkronisera ett tomt data objekt. Är detta din första synkronisering av en (nästan) ny app?",
+        "FORCE_IMPORT": "Importera fjärr data ändå?",
+        "FORCE_UPLOAD": "Ladda upp lokal data ändå?",
+        "FORCE_UPLOAD_AFTER_ERROR": "Ett fel uppstod vid uppladdning av din lokala data. Försöka tvinga uppdateringen??",
+        "TRY_LOAD_REMOTE_AGAIN": "Försöka ladda ner från fjärrserver en gång till?"
+      },
+      "D_CONFLICT": {
+        "LAST_CHANGE": "senaste ändring:",
+        "LAST_SYNC": "senaste synkronisering:",
+        "LOCAL": "lokal",
+        "LOCAL_REMOTE": "lokal -> fjärr",
+        "REMOTE": "fjärr",
+        "TEXT": "<p>Uppdatera från Dropbox. Både lokal- och fjärrdata verkar ha ändrats.</p>",
+        "TITLE": "Dropbox: Motstridiga data",
+        "USE_LOCAL": "Använd lokal",
+        "USE_REMOTE": "Använd fjärr"
+      },
+      "FORM": {
+        "B_GENERATE_TOKEN": "Generera token",
+        "FOLLOW_LINK": "Öppna följande länk och kopiera den AUTH-kod som finns där i inmatningsfältet.",
+        "L_ACCESS_TOKEN": "Åtkomst Token (genererad från AUTH-kod)",
+        "L_AUTH_CODE": "AUTH-kod",
+        "L_ENABLE_SYNCING": "Använd Dropbox Synkronisering",
+        "L_SYNC_INTERVAL": "Synkroniseringsintervall",
+        "TITLE": "Synka via Dropbox (rekommenderas)"
+      },
+      "S": {
+        "ACCESS_TOKEN_ERROR": "Dropbox: Det gick inte att generera åtkomsttoken från Auth Code",
+        "ACCESS_TOKEN_GENERATED": "Dropbox: Åtkomsttoken genererad från AUTH-kod",
+        "AUTH_ERROR": "Dropbox: Ogiltig åtkomsttoken tillhandahållet",
+        "OFFLINE": "Dropbox: Det gick inte att synkronisera, pga offline",
+        "SYNC_ERROR": "Dropbox: Fel vid synkronisering",
+        "UNKNOWN_ERROR": "Dropbox: Okänt fel: {{errorStr}}"
+      }
+    },
+    "GITHUB": {
+      "DIALOG_INITIAL": {
+        "TITLE": "Ställ in Github för Projektet"
+      },
+      "FORM": {
+        "FILTER_USER": "Användarnamn (ex. för att filtrera ändringar gjorda av dig själv)",
+        "IS_AUTO_ADD_TO_BACKLOG": "Lägg automatiskt till olösta issues från Github till uppgiftslista",
+        "IS_AUTO_POLL": "Sök automatiskt importerade git issues efter ändringar",
+        "IS_SEARCH_ISSUES_FROM_GITHUB": "Visa issues från git som förslag när du lägger till uppgifter",
+        "REPO": "\"användarnamn/repo\" för git repot du vill spåra",
+        "TOKEN": "Åtkomsttoken"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Här kan du konfigurera SuperProductivity för att lista öppna GitHub-issues för ett specifikt arkiv i uppgiftspanelen i den dagliga planeringsvyn. De kommer att listas som förslag och kommer att ge en länk till problemet samt mer information om det.</p> <p>Dessutom kan du automatiskt lägga till och synkronisera alla öppna problem i din uppgiftslista.</p>",
+        "TITLE": "Github"
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Tilldelad",
+        "AT": "den",
+        "DESCRIPTION": "Beskrivning",
+        "LABELS": "Etiketter",
+        "MARK_AS_CHECKED": "Markera uppdateringar som avcheckade",
+        "STATUS": "Status",
+        "SUMMARY": "Sammanställning",
+        "WRITE_A_COMMENT": "Skriv en kommentar"
+      },
+      "S": {
+        "ERR_NETWORK": "Github: Förfrågan misslyckades på grund av nätverksfel på klient sidan",
+        "ERR_NOT_CONFIGURED": "Github: är inte korrekt konfigurerat",
+        "ERR_UNKNOWN": "Github: Okänt fel {{statusCode}} {{errorMsg}}. Api Rate limit överskriden?",
+        "IMPORTED_MULTIPLE_ISSUES": "Github: Importerade {{issuesLength}} nya issues från git till uppgiftslista",
+        "IMPORTED_SINGLE_ISSUE": "Github: Imported issue \"{{issueText}}\" från git till uppgiftslista",
+        "ISSUE_DELETED_OR_CLOSED": "Github: Issue \"{{issueText}}\" verkar vara raderad eller stängd på git",
+        "ISSUE_NO_UPDATE_REQUIRED": "Github: Ingen uppdatering nödvändig",
+        "ISSUE_UPDATE": "Github: Uppdaterade data för \"{{issueText}}\"",
+        "MANUAL_UPDATE_ISSUE_SUCCESS": "Github: Uppdaterade data för \"{{issueText}}\"",
+        "MISSING_ISSUE_DATA": "Github: Uppgifter som saknar issue data hittde . Laddar om.",
+        "NEW_COMMENT": "Github: Nya kommentarer för \"{{issueText}}\"",
+        "POLLING": "Github: Kontrollerar ändringar för issues",
+        "SHOW_ISSUE_BTN": "Visa mig"
+      }
+    },
+    "GITLAB": {
+      "DIALOG_INITIAL": {
+        "TITLE": "Ställ in Gitlab för Projekt"
+      },
+      "FORM": {
+        "FILTER_USER": "Användarnamn (ex. för att filtrera ändringar gjorda av dig själv)",
+        "IS_AUTO_ADD_TO_BACKLOG": "Lägg automatiskt till olösta issues från Github till uppgiftslista",
+        "IS_AUTO_POLL": "Sök automatiskt importerade git issues efter ändringar",
+        "IS_SEARCH_ISSUES_FROM_GITLAB": "Visa issues från git som förslag när du lägger till uppgifter",
+        "PROJECT": "Full path or user name/project",
+        "TOKEN": "Åtkomsttoken"
+      },
+      "FORM_SECTION": {
+        "HELP": "<p>Här kan du konfigurera SuperProductivity för att visa öppna Gitlab-issues (antingen onlineversionen eller en egen instans) för ett specifikt projekt i panelen för uppgiftsskapande i den dagliga planeringsvyn. De kommer att listas som förslag och kommer att ge en länk till issuet samt mer information om det.</p> <p>Dessutom kan du automatiskt lägga till och synkronisera alla öppna issues i din uppgiftslista.</p>",
+        "TITLE": "Gitlab"
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Tilldelad",
+        "AT": "den",
+        "DESCRIPTION": "Beskrivning",
+        "LABELS": "Etiketter",
+        "MARK_AS_CHECKED": "Markera uppdateringar som avcheckade",
+        "STATUS": "Status",
+        "SUMMARY": "Sammanställning",
+        "WRITE_A_COMMENT": "Skriv en kommentar"
+      },
+      "S": {
+        "ERR_NETWORK": "Gitlab: Förfrågan misslyckades på grund av nätverksfel på klient sidan",
+        "ERR_NOT_CONFIGURED": "Gitlab: är inte korrekt konfigurerat",
+        "ERR_UNKNOWN": "Gitlab: Okänt fel {{statusCode}} {{errorMsg}}. Api Rate limit överskriden?",
+        "IMPORTED_MULTIPLE_ISSUES": "Gitlab: Importerade {{issuesLength}} nya issues från git till uppgiftslista",
+        "IMPORTED_SINGLE_ISSUE": "Gitlab: Imported issue \"{{issueText}}\" från git till uppgiftslista",
+        "ISSUE_DELETED_OR_CLOSED": "Gitlab: Issue \"{{issueText}}\" verkar vara raderad eller stängd på git",
+        "ISSUE_NO_UPDATE_REQUIRED": "Gitlab: Ingen uppdatering nödvändig",
+        "ISSUE_UPDATE": "Gitlab: Uppdaterade data för \"{{issueText}}\"",
+        "MANUAL_UPDATE_ISSUE_SUCCESS": "Gitlab: Uppdaterade data för \"{{issueText}}\"",
+        "MISSING_ISSUE_DATA": "Gitlab: Uppgifter som saknar issue data hittde . Laddar om.",
+        "NEW_COMMENT": "Gitlab: Nya kommentarer för \"{{issueText}}\"",
+        "POLLING": "Gitlab: Kontrollerar ändringar för issues",
+        "SHOW_ISSUE_BTN": "Visa mig"
+      }
+    },
+    "GOOGLE": {
+      "BANNER": {
+        "AUTH_FAIL": "GoogleApi: Misslyckades med att autentisera, försök logga in igen!"
+      },
+      "DIALOG": {
+        "CREATE_SYNC_FILE": "Google Drive: Ingen fil med namn <strong>\"{{fileName}}\"</strong> hittades. <strong>Skapa</strong> den som en synkfil på Google Drive?",
+        "USE_EXISTING_SYNC_FILE": "Google Drive: Använd <strong>existerande</strong> fil <strong>\"{{fileName}}\"</strong> som synkfil? Om inte vad vänlig ändra namn på synkfil."
+      },
+      "D_CONFIRM_LOAD": {
+        "LAST_MOD": "senast ändrad:",
+        "LAST_SYNC": "senaste synk",
+        "LOCAL": "lokal",
+        "LOCAL_REMOTE": "lokal <=> fjärr",
+        "OVERWRITE_LOCAL": "Skriv över lokal",
+        "OVERWRITE_REMOTE": "Skriv över fjärr",
+        "REMOTE": "fjärr",
+        "TEXT": "<p>Uppdatera från Google Drive Backup. Både lokal och fjärrdata verkar ha ändrats. Vill du skriva över ej sparade lokala ändringar? <strong>All data kommer förloras för alltid</strong>.</p>",
+        "TITLE": "Skriv över lokal data med GDrive uppdatering?"
+      },
+      "D_CONFIRM_SAVE": {
+        "LAST_MOD": "senaste ändrad:",
+        "LAST_SYNC": "senaste synk",
+        "LOCAL": "lokal",
+        "LOCAL_REMOTE": "lokal <=> fjärr",
+        "OVERWRITE_LOCAL": "Skriv över lokal",
+        "OVERWRITE_REMOTE": "Skriv över fjärr",
+        "REMOTE": "fjärr",
+        "TEXT": "  <p>Det verkar finnas ändringar på Google Drive, som du inte har lokalt. Vill du skriva över dem ändå?</p>",
+        "TITLE": "Skriv över ej sparad data på Google Drive?"
+      },
+      "S": {
+        "DOWNLOADING_UPDATE": "Google Drive: Det finns en fjärruppdatering! Laddar ner...",
+        "ERROR": "Google Drive – Fel: {{errTxt}}",
+        "ERROR_INITIAL_IMPORT": "Google Drive: Fel vid första import av data",
+        "LOCAL_UP_TO_DATE": "Google Drive: Lokal data redan uppdaterad",
+        "MULTIPLE_SYNC_FILES_WITH_SAME_NAME": "Flera filer med namn \"{{newFileName}}\" funna. Var vänlig radera alla utom en eller välj ett annat namn.",
+        "NO_UPDATE_REQUIRED": "Google Drive: Ingen uppdatering krävs",
+        "REMOTE_UP_TO_DATE": "Google Drive: Fjärrdata redan uppdaterad",
+        "SUCCESS": "Google Drive: Backup sparad",
+        "SYNCING": "Google Drive: Synkroniserar"
+      },
+      "SYNC_CFG": {
+        "AUTO_LOGIN": "Logga in automatiskt vid start",
+        "AUTO_SYNC": "Synkronisera automatiskt data med fjärr",
+        "BACKUP_NOW": "Säkerhetskopiera nu",
+        "COMPRESS": "Komprimera data",
+        "ENABLE": "Aktivera Google Drive synkronisering",
+        "LOAD_FROM": "Ladda från GDrive",
+        "LOAD_ON_STARTUP": "Ladda fjärrdata vid uppstart",
+        "NOTIFY": "Notifiera vid synkronisering",
+        "SYNC_FILE_NAME": "Synk filnamn",
+        "SYNC_INTERVAL": "Synk intervall",
+        "UPDATE_SYNC_FILE": "Uppdatera synk fil"
+      },
+      "S_API": {
+        "ERR": "GoogleApi Error: {{errStr}}",
+        "ERR_NO_FILE_ID": "GoogleApi: Inget fil id angivet",
+        "ERR_NO_FILE_NAME": "GoogleApi: Inget filnamn angivet",
+        "SUCCESS_LOGIN": "GoogleApi: Inloggning lyckades"
+      }
+    },
+    "JIRA": {
+      "BANNER": {
+        "BLOCK_ACCESS_MSG": "Jira: För att förhindra avstängning från api har åtkomst blockerats av Super Productivity. Du borde noggrant kontrollera dina jira-inställningar!",
+        "BLOCK_ACCESS_UNBLOCK": "Avblockera"
+      },
+      "CFG_CMP": {
+        "ALWAYS_ASK": "Öppna alltid dialogrutan",
+        "DONE": "Status för att slutföra uppgiften",
+        "DO_NOT": "Övergå inte",
+        "ENABLE": "Aktivera Jira-integration",
+        "ENABLE_TRANSITIONS": "Aktivera övergångshantering",
+        "IN_PROGRESS": "Status för start av uppgift",
+        "LOAD_SUGGESTIONS": "Ladda förslag",
+        "MAP_CUSTOM_FIELDS": "Kartlägg anpassade fält",
+        "MAP_CUSTOM_FIELDS_INFO": "Tyvärr sparas en del av Jiras data under anpassade fält som skiljer sig åt för varje installation. Om du vill inkludera dessa data måste du välja rätt anpassat fält för det.",
+        "OPEN": "Status för paus av uppgift",
+        "SELECT_ISSUE_FOR_TRANSITIONS": "Välj issue för att ladda tillgängliga övergångar",
+        "STORY_POINTS": "Storypoäng"
+      },
+      "DIALOG_CONFIRM_ASSIGNMENT": {
+        "MSG": "<strong>{{summary}}</strong> för närvarande tilldelat <strong>{{assignee}}</strong>. Vill du tilldela dig själv?",
+        "OK": "Gör det!"
+      },
+      "DIALOG_INITIAL": {
+        "TITLE": "Ställ in Jira för Projektet"
+      },
+      "DIALOG_TRANSITION": {
+        "CHOOSE_STATUS": "Välj status att tilldela",
+        "CURRENT_ASSIGNEE": "Nuvarande tilldelad:",
+        "CURRENT_STATUS": "Aktuell status:",
+        "TITLE": "Jira: Uppdaterings status",
+        "UPDATE_STATUS": "Uppdatera status"
+      },
+      "DIALOG_WORKLOG": {
+        "CURRENTLY_LOGGED": "Currently logged time: ",
+        "INVALID_DATE": "The entered value is not a date!",
+        "SAVE_WORKLOG": "Save Worklog",
+        "STARTED": "Started",
+        "SUBMIT_WORKLOG_FOR": "Submit a worklog to Jira for",
+        "TIME_SPENT": "Time Spent",
+        "TITLE": "Jira: Submit Worklog"
+      },
+      "FORM": {
+        "IS_AUTO_ADD_TO_BACKLOG": "Automatically add unresolved issues from Github to backlog",
+        "IS_AUTO_POLL": "Automatically poll imported git issues for changes",
+        "IS_SEARCH_ISSUES_FROM_GITHUB": "Show issues from git as suggestions when adding new tasks",
+        "REPO": "\"username/repositoryName\" for the git repository you want to track"
+      },
+      "FORM_ADV": {
+        "AUTO_ADD_BACKLOG_JQL_QUERY": "JQL used for adding tasks automatically to backlog",
+        "IS_ADD_WORKLOG_ON_SUB_TASK_DONE": "Open dialog to submit worklog to jira when sub task is done",
+        "IS_AUTO_ADD_TO_BACKLOG": "Automatically add issues to Jira backlog",
+        "IS_AUTO_POLL_TICKETS": "Check imported issues for changes automatically and notify",
+        "IS_CHECK_TO_RE_ASSIGN_TICKET_ON_TASK_START": "Check if the currently worked on issue is assigned to current user",
+        "IS_WORKLOG_ENABLED": "Open dialog to submit worklog to jira when task is done",
+        "SEARCH_JQL_QUERY": "JQL Query for limiting searching tasks"
+      },
+      "FORM_CRED": {
+        "ALLOW_SELF_SIGNED": "Allow self signed certificate",
+        "HOST": "Host (e.g.: http://my-host.de:1234)",
+        "PASSWORD": "Token / Password",
+        "USER_NAME": "Email / Username",
+        "WONKY_COOKIE_MODE": "Wonky Cookie Fallback Authentication (desktop app only)"
+      },
+      "FORM_SECTION": {
+        "ADV_CFG": "Advanced Config",
+        "CREDENTIALS": "Credentials",
+        "HELP_ARR": {
+          "H1": "Basic configuration",
+          "H2": "Worklog settings",
+          "H3": "Default transitions",
+          "P1_1": "Please provide a login name (can be found on your profile page) and an <a target=\"_blank\" href=\"https://confluence.atlassian.com/cloud/api-tokens-938839638.html\" target=\"_blank\">API token</a> or password if you can't generate one for some reason. Please not that newer versions of jira sometimes only work with the token. ",
+          "P1_2": "You also need to specify a JQL query which is used for the suggestions to add tasks from Jira. If you need help check out this link <a target=\"_blank\" href=\"https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html\" target=\"_blank\">https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html</a>.",
+          "P1_3": "You can also configure, if you want to automatically (e.g. every time you visit the planning view), to add all new tasks specified by a custom JQL query to the backlog.",
+          "P1_4": "Another option is \"Check if current ticket is assigned to current user\". If enabled and you're starting, a check will be made if you're currently assigned to that ticket on Jira, if not an Dialog appears in which you can chose to assign the ticket to yourself.",
+          "P2_1": "There are several options to determine when and how you want to submit a worklog. Enabling <em>'Open worklog dialog for adding a worklog to Jira when task is done'</em> opens a dialog to add an worklog every time you mark a Jira Task as done. So keep in mind that worklogs will be added on top of everything tracked so far. So if you mark a task as done for a second time, you might not want to submit the complete worked time for the task again.",
+          "P2_2": "<em>'Open worklog dialog when sub task is done and not for tasks with sub tasks themselves'</em> opens a worklog dialog every time when you mark a sub task of a Jira issue as done. Because you already track your time via the sub tasks, no dialog is opened once you mark the Jira task itself as done.",
+          "P2_3": "<em>'Send updates to worklog automatically without dialog'</em> does what it says. Because marking a task as done several times leads to the whole worked time being tracked twice, this is not recommended.",
+          "P3_1": "Here you can reconfigure your default transitions. Jira enables a wide configuration of transitions usually coming into action as different columns on your Jira agile board we can't make assumptions about where and when to transition your tasks and you need to set it manually."
+        }
+      },
+      "ISSUE_CONTENT": {
+        "ASSIGNEE": "Assignee",
+        "AT": "at",
+        "ATTACHMENTS": "Attachments",
+        "CHANGED": "changed",
+        "COMMENTS": "Comments",
+        "COMPONENTS": "Components",
+        "DESCRIPTION": "Description",
+        "LIST_OF_CHANGES": "List of changes",
+        "MARK_AS_CHECKED": "Mark updates as checked",
+        "ON": "on",
+        "STATUS": "Status",
+        "STORY_POINTS": "Story Points",
+        "SUMMARY": "Summary",
+        "WORKLOG": "Worklog",
+        "WRITE_A_COMMENT": "Write a comment"
+      },
+      "S": {
+        "ADDED_WORKLOG_FOR": "Jira: Added worklog for {{issueKey}}",
+        "EXTENSION_NOT_LOADED": "Super Productivity Extension not loaded. Reloading the page might help",
+        "IMPORTED_MULTIPLE_ISSUES": "Jira: Imported {{issuesLength}} new issues from jira to backlog",
+        "IMPORTED_SINGLE_ISSUE": "Jira: Imported issue \"{{issueText}}\" from jira to backlog",
+        "INSUFFICIENT_SETTINGS": "Insufficient Settings provided for Jira",
+        "ISSUE_NO_UPDATE_REQUIRED": "Jira: \"{{issueText}}\" already up to date",
+        "ISSUE_UPDATE": "Jira: Updated data for \"{{issueText}}\"",
+        "MANUAL_UPDATE_ISSUE_SUCCESS": "Jira: Updated data for \"{{issueText}}\"",
+        "MISSING_ISSUE_DATA": "Jira: Tasks with missing issue data found. Reloading.",
+        "NO_AUTO_IMPORT_JQL": "Jira: No search query defined for auto import",
+        "NO_VALID_TRANSITION": "Jira: No valid transition configured",
+        "POLLING": "Jira: Polling Changes for issues",
+        "TIMED_OUT": "Jira: Request timed out",
+        "TRANSITION": "Jira: Set issue \"{{issueKey}}\" to \"{{name}}\"",
+        "TRANSITIONS_LOADED": "Jira: Transitions loaded. Use the selects below to assign them",
+        "TRANSITION_SUCCESS": "Jira: Set issue {{issueKey}} to <strong>{{chosenTransition}}</strong>",
+        "UNABLE_TO_REASSIGN": "Jira: Unable to reassign ticket to yourself, because you didn't specify a username. Please visit the settings."
+      },
+      "STEPPER": {
+        "CREDENTIALS": "Credentials",
+        "DONE": "You are now done.",
+        "LOGIN_SUCCESS": "Login successful!",
+        "TEST_CREDENTIALS": "Test Credentials",
+        "WELCOME_USER": "Welcome {{user}}!"
+      }
+    },
+    "METRIC": {
+      "BANNER": {
+        "CHECK": "I did it!"
+      },
+      "CMP": {
+        "AVG_BREAKS_PER_DAY": "Avg. breaks per day",
+        "AVG_TASKS_PER_DAY_WORKED": "Avg. tasks per day worked",
+        "AVG_TIME_SPENT_ON_BREAKS": "Avg. time spent on breaks",
+        "AVG_TIME_SPENT_PER_DAY": "Avg. time spent per day",
+        "AVG_TIME_SPENT_PER_TASK": "Avg. time spent per task",
+        "COUNTING_SUBTASKS": "(counting subtasks)",
+        "DAYS_WORKED": "Days worked",
+        "IMPROVEMENT_SELECTION_COUNT": "Number of times an improvement factor was selected",
+        "MOOD_PRODUCTIVITY_OVER_TIME": "Mood and productivity over time",
+        "NO_ADDITIONAL_DATA_YET": "No additional data collected yet. Use the form on the daily summary \"Evaluation\" panel to do so.",
+        "OBSTRUCTION_SELECTION_COUNT": "Number of times an obstructing factor was selected",
+        "TASKS_DONE_CREATED": "Tasks (done/created)",
+        "TIME_ESTIMATED": "Time Estimated",
+        "TIME_SPENT": "Time Spent"
+      },
+      "EVAL_FORM": {
+        "ADD_NOTE_FOR_TOMORROW": "Add Note for tomorrow",
+        "DISABLE_REPEAT_EVERY_DAY": "Disable repeat every day",
+        "ENABLE_REPEAT_EVERY_DAY": "Repeat every day",
+        "HELP_H1": "Why should I care?",
+        "HELP_LINK_TXT": "Go to metrics section",
+        "HELP_P1": "Time for a little self evaluation! Your answers here are saved and provide you with a little bit of statistics on how you work in the metrics section. Furthermore the suggestions for tomorrow will appear above your task list the next day.",
+        "HELP_P2": "This is intended to be less about calculating exact metrics or becoming machine like efficient in all you do than it is about improving how you feel about your work. It can be helpful to evaluate pain points in your daily routine, as well as it is to find factors that help you out. Being just a little bit systematic about it hopefully helps to get a better grip on these and to improve what you can.",
+        "IMPROVEMENTS": "What improved your productivity?",
+        "IMPROVEMENTS_TOMORROW": "What could you do to improve tomorrow?",
+        "MOOD": "How do you feel?",
+        "MOOD_HINT": "1: Awful – 10: Splendid",
+        "NOTES": "Notes for tomorrow",
+        "OBSTRUCTIONS": "What hindered your productivity?",
+        "PRODUCTIVITY": "How efficient did you work?",
+        "PRODUCTIVITY_HINT": "1: Haven't even started – 10: Enormously efficient"
+      },
+      "S": {
+        "SAVE_METRIC": "Metric successfully saved"
+      }
+    },
+    "NOTE": {
+      "ADD_REMINDER": "Add reminder",
+      "D_ADD": {
+        "DATETIME_LABEL": "Datetime for reminder (optional)",
+        "NOTE_LABEL": "Enter some text to save as note..."
+      },
+      "D_ADD_REMINDER": {
+        "E_ENTER_TITLE": "You need to enter a title",
+        "L_DATETIME": "Datetime for reminder",
+        "L_TITLE": "Title for notification"
+      },
+      "D_VIEW_REMINDER": {
+        "SNOOZE": "Snooze",
+        "TITLE": "Note"
+      },
+      "EDIT_FULLSCREEN": "Edit in fullscreen",
+      "EDIT_REMINDER": "Edit reminder",
+      "NOTES_CMP": {
+        "ADD_BTN": "Add new Note",
+        "DROP_TO_ADD": "Drop here to add new note"
+      },
+      "NOTE_CMP": {
+        "DISABLE_PARSE": "Disable markdown parsing",
+        "ENABLE_PARSE": "Enable markdown parse"
+      },
+      "REMOVE_REMINDER": "Remove reminder",
+      "S": {
+        "ADDED_REMINDER": "Added reminder for note",
+        "DELETED_REMINDER": "Deleted reminder for note",
+        "UPDATED_REMINDER": "Updated reminder for note"
+      },
+      "UPDATE_REMINDER": "Update reminder"
+    },
+    "POMODORO": {
+      "BACK_TO_WORK": "Back to work!",
+      "BREAK_IS_DONE": "Your break is done!",
+      "ENJOY_YOURSELF": "Enjoy yourself, get yourself moving, come back in:",
+      "FINISH_SESSION_X": "You successfully finished session <strong>{{nr}}</strong>!",
+      "NOTIFICATION": {
+        "BREAK_X_START": "Pomodoro: Break {{nr}} started!",
+        "SESSION_X_START": "Pomodoro: Session {{nr}} started!"
+      },
+      "S": {
+        "SESSION_X_START": "Pomodoro: Session {{nr}} started!"
+      },
+      "SKIP_BREAK": "Skip break"
+    },
+    "PROCRASTINATION": {
+      "BACK_TO_WORK": "Back to work!",
+      "COMP": {
+        "INTRO": "Showing yourself some compassion is always a great idea. It improves your feeling of self-worth, fosters positive emotions and can help you overcome procrastination, of course. Try a little exercise:",
+        "L1": "Sit down for bit and stretch yourself, if you like, calm down a little bit",
+        "L2": "Try to listen to the thoughts and feelings that arise",
+        "L3": "Are you responding to yourself in a way that you would respond to a friend?",
+        "L4": "If the answer is no, imagine your friend in your situation. What you would say to them? What you would do for them?",
+        "OUTRO": "More exercises <a target=\"_blank\" href=\"https://drsoph.com/blog/2018/9/17/3-exercises-in-self-compassion\" target=\"_blank\">can be found here</a> or on <a target=\"_blank\" href=\"https://www.google.com/search?q=self+compassion+exercises&oq=self+compassion+excers&aqs=chrome.1.69i57j0l5.4303j0j7&sourceid=chrome&ie=UTF-8\" target=\"_blank\">google</a>.",
+        "TITLE": "Self Compassion"
+      },
+      "CUR": {
+        "INTRO": "Procrastination is interesting, isn't it? It doesn't make sense to do it. Not in your long term interest at all. But still everybody does it. Enjoy and explore!",
+        "L1": "What feelings are eliciting your temptation to procrastinate?",
+        "L2": "Where do you feel them in your body?",
+        "L3": "What do they remind you of?",
+        "L4": "What happens to the thought of procrastinating as you observe it? Does it intensify? Dissipate? Cause other emotions to arise?",
+        "L5": "How are the sensations in your body shifting as you continue to rest your awareness on them?",
+        "TITLE": "Curiosity"
+      },
+      "H1": "Cut yourself some slack!",
+      "P1": "First of all relax! Everybody does it once in a while. And if you're not doing what you should, you should at least enjoy it! Then check out the sections below for something helpful.",
+      "P2": "If you want to know more about the science behind all here I can recommend <a target=\"_blank\" href=\"https://www.nytimes.com/2019/03/25/smarter-living/why-you-procrastinate-it-has-nothing-to-do-with-self-control.html\" target=\"_blank\">this article</a> from which are some of the exercises.",
+      "P3": "Remember: Procrastination is an emotion regulation problem, not a time management problem.",
+      "REFRAME": {
+        "INTRO": "Think about what might be positive about the task despite its flaws.",
+        "TITLE": "Reframing",
+        "TL1": "What might be interesting about it?",
+        "TL2": "What is to gain if you complete it?",
+        "TL3": "How will you feel about it if you complete it?"
+      },
+      "SPLIT_UP": {
+        "INTRO": "Split up the task into as many small chunks as you can.",
+        "OUTRO": "Done? Then think about it. What would be – strictly theoretical – the first thing you would do <i>if</i> you were to start working on the task? Just think about it...",
+        "TITLE": "Split it up!"
+      }
+    },
+    "PROJECT": {
+      "D_CREATE": {
+        "CREATE": "Create Project",
+        "EDIT": "Edit Project",
+        "SETUP_GIT": "Setup Github Integration",
+        "SETUP_GITLAB": "Setup Gitlab Integration",
+        "SETUP_JIRA": "Setup Jira Integration"
+      },
+      "FORM_BASIC": {
+        "L_TITLE": "Project Name",
+        "TITLE": "Basic Settings"
+      },
+      "FORM_THEME": {
+        "D_IS_DARK_THEME": "Won`t be used if system supports global dark mode.",
+        "HELP": "Theme settings for your project.",
+        "L_COLOR_ACCENT": "Accent Color",
+        "L_COLOR_PRIMARY": "Primary Color",
+        "L_COLOR_WARN": "Warn/Error Color",
+        "L_HUE_ACCENT": "Threshold for dark text on accent color background",
+        "L_HUE_PRIMARY": "Threshold for dark text on primary color background",
+        "L_HUE_WARN": "Threshold for dark text on warn color background",
+        "L_IS_AUTO_CONTRAST": "Auto set text colors for best readability",
+        "L_IS_DISABLE_BACKGROUND_GRADIENT": "Disable colored background gradient",
+        "L_IS_REDUCED_THEME": "Use reduced UI (no boxes around tasks)",
+        "L_THEME_COLOR": "Theme Color",
+        "L_TITLE": "Title",
+        "TITLE": "Theme"
+      },
+      "S": {
+        "ARCHIVED": "Archived Project",
+        "CREATED": "Created project <strong>{{title}}</strong>. You can select it from the menu on the top left.",
+        "DELETED": "Deleted Project",
+        "E_EXISTS": "Project \"{{title}}\" already exists",
+        "E_INVALID_FILE": "Invalid data for project file",
+        "ISSUE_PROVIDER_UPDATED": "Updated project settings for <strong>{{issueProviderKey}}</strong>",
+        "UNARCHIVED": "Unarchived project",
+        "UPDATED": "Updated project settings"
+      }
+    },
+    "REMINDER": {
+      "S_REMINDER_ERR": "Error for reminder interface"
+    },
+    "SIMPLE_COUNTER": {
+      "D_CONFIRM_REMOVE": {
+        "MSG": "Deleting a simple counter, will also delete all past data tracked on it. Are you sure you want to proceed?",
+        "OK": "Do it!"
+      },
+      "D_EDIT": {
+        "L_COUNTER": "Count",
+        "TITLE": "Edit Simple Counter"
+      },
+      "FORM": {
+        "ADD_NEW": "Add simple counter",
+        "HELP": "Here you can configure simple buttons which will appear at the top right. They can either be timers or just a simple counter, which is counted up, by clicking on it.",
+        "L_AUTO_COUNT_UP": "Auto trigger count up for",
+        "L_AUTO_SWITCH_OFF": "Auto trigger switch off for",
+        "L_AUTO_SWITCH_ON": "Auto trigger switch on for",
+        "L_ICON": "Icon",
+        "L_ICON_ON": "Icon when toggled",
+        "L_IS_ENABLED": "Enabled",
+        "L_TITLE": "Title",
+        "L_TYPE": "Type",
+        "TITLE": "Simple Counters",
+        "TYPE_CLICK_COUNTER": "Click Counter",
+        "TYPE_STOPWATCH": "Stopwatch"
+      }
+    },
+    "TAG": {
+      "D_CREATE": {
+        "CREATE": "Create Tag",
+        "EDIT": "Edit Tag"
+      },
+      "D_DELETE": {
+        "CONFIRM_MSG": "Do you really want to delete the tag \"{{tagName}}\"? It will be removed from all tasks. This cannot be undone."
+      },
+      "D_EDIT": {
+        "ADD": "Add tags for \"{{title}}\"",
+        "EDIT": "Edit tags for \"{{title}}\"",
+        "LABEL": "Tags"
+      },
+      "FORM_BASIC": {
+        "L_COLOR": "Color (if undefined primary theme color is used)",
+        "L_ICON": "Icon",
+        "L_TITLE": "Tag Name",
+        "TITLE": "Basic Settings"
+      },
+      "S": {
+        "UPDATED": "Tag Settings were updated"
+      }
+    },
+    "TASK": {
+      "ADDITIONAL_INFO": {
+        "ADD_ATTACHMENT": "Add attachment",
+        "ADD_SUB_TASK": "Add Sub Task",
+        "ATTACHMENTS": "Attachments ({{nr}})",
+        "FROM_PARENT": "(from Parent)",
+        "LOCAL_ATTACHMENTS": "Local Attachments",
+        "NOTES": "Notes",
+        "PARENT": "Parent",
+        "REMINDER": "Reminder",
+        "REPEAT": "Repeat",
+        "SCHEDULE_TASK": "Schedule Task",
+        "SUB_TASKS": "Sub Tasks ({{nr}})",
+        "TIME": "Time"
+      },
+      "ADD_TASK_BAR": {
+        "ADD_EXISTING_TASK": "Add existing task \"{{taskTitle}}\"",
+        "ADD_ISSUE_TASK": "Add issue #{{issueNr}} from {{issueType}}",
+        "ADD_TASK": "Add task",
+        "ADD_TASK_TO_BACKLOG": "Add task to backlog",
+        "CREATE_TASK": "Create new task",
+        "EXAMPLE": "Example: \"Some task title +projectName #some tag #some other tag 10m/3h\"",
+        "START": "Press enter one more time to start"
+      },
+      "B": {
+        "ADD_HALF_HOUR": "Add 1/2 hour",
+        "ESTIMATE_EXCEEDED": "Time estimate exceeded for  \"{{title}}\""
+      },
+      "CMP": {
+        "ADD_SUB_TASK": "Add sub task",
+        "ADD_TO_MY_DAY": "Add to My Day",
+        "ADD_TO_PROJECT": "Add to a Project",
+        "CONVERT_TO_PARENT_TASK": "Convert to parent Task",
+        "DELETE": "Delete Task",
+        "DROP_ATTACHMENT": "Drop here to attach to \"{{title}}\"",
+        "EDIT_REMINDER": "Edit reminder",
+        "EDIT_TAGS": "Edit tags",
+        "MARK_DONE": "Mark as done",
+        "MARK_UNDONE": "Mark as undone",
+        "MOVE_TO_BACKLOG": "Move to backlog",
+        "MOVE_TO_OTHER_PROJECT": "Move to other Project",
+        "MOVE_TO_TODAY": "Move to today's list",
+        "OPEN_ATTACH": "Attach file or link",
+        "OPEN_ISSUE": "Open in browser",
+        "OPEN_TIME": "Time Tracking",
+        "REMOVE_FROM_MY_DAY": "Remove from My Day",
+        "REPEAT_EDIT": "Edit repeat task config",
+        "SCHEDULE": "Schedule task",
+        "SHOW_UPDATES": "Show updates",
+        "TOGGLE_ADDITIONAL": "Show/Hide additional info",
+        "TOGGLE_ATTACHMENTS": "Show/Hide attachments",
+        "TOGGLE_DONE": "Mark as done/undone",
+        "TOGGLE_SUB_TASK_VISIBILITY": "Toggle sub task visibility",
+        "TRACK_TIME": "Start tracking time",
+        "TRACK_TIME_STOP": "Pause tracking time",
+        "UPDATE_ISSUE_DATA": "Update issue data"
+      },
+      "D_REMINDER_ADD": {
+        "DATETIME_FOR": "Datetime for reminder",
+        "EDIT": "Edit Reminder",
+        "MOVE_TO_BACKLOG": "Move task to backlog until scheduled",
+        "SCHEDULE": "Schedule",
+        "UNSCHEDULE": "Unschedule"
+      },
+      "D_REMINDER_VIEW": {
+        "ADD_ALL_TO_TODAY": "Add all to today",
+        "ADD_TO_TODAY": "Add to today",
+        "DISMISS": "Dismiss Reminder",
+        "DISMISS_ALL": "Dismiss all",
+        "DUE_TASK": "Due task",
+        "DUE_TASKS": "Due tasks",
+        "FOR_CURRENT": "Task is due. Do you want to start working on it?",
+        "FOR_OTHER": "Task is due. Do you want to start working on it?",
+        "FROM_PROJECT": "From Project: \"{{title}}\"",
+        "FROM_TAG": "From Tag: \"{{title}}\"",
+        "SNOOZE": "Snooze",
+        "SNOOZE_ALL": "Snooze all",
+        "SNOOZE_UNTIL_TOMORROW": "Until tomorrow",
+        "START": "Start",
+        "SWITCH_CONTEXT_START": "Switch Context & Start"
+      },
+      "D_TIME": {
+        "ADD_FOR_OTHER_DAY": "Add time spent for other day",
+        "DELETE_FOR": "Delete entry for day",
+        "ESTIMATE": "Estimate",
+        "TIME_SPENT": "Time Spent",
+        "TIME_SPENT_ON": "Time Spent {{date}}",
+        "TITLE": "Time spent / Estimates"
+      },
+      "D_TIME_FOR_DAY": {
+        "ADD_ENTRY_FOR": "Add new entry for {{date}}",
+        "DATE": "Date for new entry",
+        "HELP": "Examples:<br> 30m => 30 minutes<br> 2h => 2 hours<br> 2h 30m => 2 hours and 30 minutes",
+        "TINE_SPENT": "Time Spent",
+        "TITLE": "Add for Day"
+      },
+      "N": {
+        "ESTIMATE_EXCEEDED": "Time estimate exceeded!",
+        "ESTIMATE_EXCEEDED_BODY": "You exceeded your estimated time for \"{{title}}\"."
+      },
+      "S": {
+        "DELETED": "Deleted task \"{{title}}\"",
+        "FOUND_MOVE_FROM_BACKLOG": "Moved task <strong>{{title}}</strong> from backlog to todays task list",
+        "FOUND_MOVE_FROM_OTHER_LIST": "Added task <strong>{{title}}</strong> from <strong>{{contextTitle}}</strong> to current list",
+        "FOUND_RESTORE_FROM_ARCHIVE": "Restored task <strong>{{title}}</strong> related to issue from archive",
+        "LAST_TAG_DELETION_WARNING": "You're trying to remove the last tag of a non project task. This is not allowed!",
+        "REMINDER_ADDED": "Scheduled task \"{{title}}\"",
+        "REMINDER_DELETED": "Deleted reminder for task",
+        "REMINDER_UPDATED": "Updated reminder for task \"{{title}}\"",
+        "TASK_CREATED": "Created task \"{{title}}\""
+      },
+      "SELECT_OR_CREATE": "Select or create task",
+      "SUMMARY_TABLE": {
+        "ESTIMATE": "Estimate",
+        "SPENT_TODAY": "Spent Today",
+        "SPENT_TOTAL": "Spent Total",
+        "TASK": "Task",
+        "TOGGLE_DONE": "un-/mark as done"
+      }
+    },
+    "TASK_REPEAT": {
+      "D_CONFIRM_REMOVE": {
+        "MSG": "Removing the repeat config will convert all previous instances of this task to just regular tasks. Are you sure you want to proceed",
+        "OK": "Remove completely"
+      },
+      "D_EDIT": {
+        "ADD": "Add Repeat Task Config",
+        "EDIT": "Edit Repeat Task Config",
+        "HELP1": "Repeating tasks are meant for daily chores, e.g.: \"Organization\", \"Daily Meeting\", \"Code Review\", \"Checking emails\" or similar tasks which are likely to occur again and again.",
+        "HELP2": "Once configured a repeating task will be recreated on every day selected below as soon as you open your project and will be automatically marked as completed at the end of the day. They will be handled as different instances. So you can freely add sub tasks etc.",
+        "HELP3": "Tasks imported from Jira or Git Issues cannot be repeated. All reminders will also be deleted on a repeating task.",
+        "TAG_LABEL": "Tags to add"
+      },
+      "F": {
+        "DEFAULT_ESTIMATE": "Default Estimate",
+        "FRIDAY": "Friday",
+        "IS_ADD_TO_BOTTOM": "Move task to bottom of list",
+        "MONDAY": "Monday",
+        "SATURDAY": "Saturday",
+        "SUNDAY": "Sunday",
+        "THURSDAY": "Thursday",
+        "TITLE": "Title for task",
+        "TUESDAY": "Tuesday",
+        "WEDNESDAY": "Wednesday"
+      }
+    },
+    "TIME_TRACKING": {
+      "B": {
+        "ALREADY_DID": "I already did",
+        "SNOOZE": "Snooze {{time}}"
+      },
+      "B_TTR": {
+        "ADD_TO_TASK": "Add to Task",
+        "MSG": "You have not been tracking time for {{time}}"
+      },
+      "D_IDLE": {
+        "BREAK": "Break",
+        "CREATE_AND_TRACK": "<em>Create</em> and track to",
+        "IDLE_FOR": "You have been idle for:",
+        "SKIP": "Skip",
+        "TASK": "Task",
+        "TASK_BREAK": "Task+Break",
+        "TRACK_TO": "Track to"
+      },
+      "D_TRACKING_REMINDER": {
+        "UNTRACKED_TIME": "Untracked time:",
+        "TRACK_TO": "Track to:",
+        "CREATE_AND_TRACK": "<em>Create</em> and track to",
+        "IDLE_FOR": "You have been idle for:",
+        "TASK": "Task"
+      }
+    },
+    "WORKLOG": {
+      "CMP": {
+        "DAYS_WORKED": "Days, worked:",
+        "MONTH_WORKED": "Month worked:",
+        "REPEATING_TASK": "Repeating task",
+        "RESTORE_TASK_FROM_ARCHIVE": "Restore Task From Archive",
+        "TASKS": "Tasks",
+        "TOTAL_TIME": "Time spent total:",
+        "WEEK_NR": "Week {{nr}}",
+        "WORKED": "Worked"
+      },
+      "D_CONFIRM_RESTORE": "Are you sure you want to move the task <strong>\"{{title}}\"</strong> into your todays task list?",
+      "D_EXPORT_TITLE": "Worklog Export {{start}}–{{end}}",
+      "D_EXPORT_TITLE_SINGLE": "Worklog Export {{day}}",
+      "EXPORT": {
+        "ADD_COL": "Add column",
+        "COPY_TO_CLIPBOARD": "Copy to clipboard",
+        "DONT_ROUND": "don't round",
+        "EDIT_COL": "Edit column",
+        "GROUP_BY": "Group by",
+        "O": {
+          "DATE": "Date",
+          "ENDED_WORKING": "Ended Working",
+          "ESTIMATE_AS_CLOCK": "Estimate as clock (e.g. 5:23)",
+          "ESTIMATE_AS_MILLISECONDS": "Estimate as milliseconds",
+          "ESTIMATE_AS_STRING": "Estimate as string (e.g. 5h 23m)",
+          "FULL_HALF_HOURS": "full half hours",
+          "FULL_HOURS": "full hours",
+          "FULL_QUARTERS": "full quarters",
+          "PARENT_TASK": "Parent Task",
+          "PARENT_TASK_TITLES_ONLY": "Parent Task Titles only",
+          "STARTED_WORKING": "Started Working",
+          "TASK_SUBTASK": "Task/Subtask",
+          "TIME_AS_CLOCK": "Time as clock (e.g. 5:23)",
+          "TIME_AS_MILLISECONDS": "Time as milliseconds",
+          "TIME_AS_STRING": "Time as string (e.g. 5h 23m)",
+          "TITLES_AND_SUB_TASK_TITLES": "Titles and Sub Task Titles",
+          "WORKLOG": "Worklog"
+        },
+        "OPTIONS": "Options",
+        "ROUND_END_TIME_TO": "Round end time to",
+        "ROUND_START_TIME_TO": "Round start time to",
+        "ROUND_TIME_WORKED_TO": "Round time worked to",
+        "SAVE_TO_FILE": "Save to file",
+        "SEPARATE_TASKS_BY": "Separate tasks by",
+        "SHOW_AS_TEXT": "Show as text"
+      },
+      "WEEK": {
+        "EXPORT": "Export Week Data",
+        "NO_DATA": "No tasks this week yet.",
+        "TITLE": "Title"
+      }
+    }
+  },
+  "FILE_IMEX": {
+    "EXPORT_DATA": "Export Data",
+    "IMPORT_FROM_FILE": "Import from file",
+    "S_ERR_INVALID_DATA": "Import failed: Invalid JSON"
+  },
+  "G": {
+    "CANCEL": "Cancel",
+    "CLICK_TO_EDIT": "click to edit",
+    "CLOSE": "Close",
+    "DELETE": "Delete",
+    "DISMISS": "Dismiss",
+    "DO_IT": "Do it!",
+    "EDIT": "Edit",
+    "EXTENSION_INFO": "Please <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/super-productivity/ljkbjodfmekklcoibdnhahlaalhihmlb'}\"> download the chrome extension</a> in order to allow communication with the Jira Api and Idle Time Handling. Note that this doesn't work for mobile.",
+    "LOGIN": "Login",
+    "LOGOUT": "Logout",
+    "MINUTES": "{{m}} minutes",
+    "NEXT": "Next",
+    "NONE": "None",
+    "NO_CON": "You are currently offline. Please reconnect to the internet.",
+    "OK": "Ok",
+    "PREVIOUS": "Previous",
+    "REMOVE": "Remove",
+    "RESET": "Reset",
+    "SAVE": "Save",
+    "TITLE": "Title",
+    "UNDO": "Undo",
+    "UPDATE": "Update",
+    "WITHOUT_PROJECT": "Without Project"
+  },
+  "GCF": {
+    "AUTO_BACKUPS": {
+      "HELP": "Auto save all data to your app folder in order to have it ready in case something goes wrong.",
+      "LABEL_IS_ENABLED": "Enable automatic backups",
+      "LOCATION_INFO": "Backups are saved to:",
+      "TITLE": "Automatic Backups"
+    },
+    "EVALUATION": {
+      "IS_HIDE_EVALUATION_SHEET": "Hide evaluation sheet on daily summary",
+      "TITLE": "Evaluation & Metrics"
+    },
+    "GOOGLE_DRIVE_SYNC": {
+      "HELP": "Here you can configure your app to automatically sync to and from a single google drive file. All data will be saved unencrypted, so make sure you don't accidentally share this file with someone.",
+      "TITLE": "Sync via Google Drive"
+    },
+    "IDLE": {
+      "HELP": "<div><p>When idle time handling is enabled a dialog will open after a specified amount of time to check if and on which task you want to track your time, when you have been idle.</p></div>",
+      "IS_ENABLE_IDLE_TIME_TRACKING": "Enable idle time handling",
+      "IS_ONLY_OPEN_IDLE_WHEN_CURRENT_TASK": "Only trigger idle time dialog when a current task is selected",
+      "IS_UN_TRACKED_IDLE_RESETS_BREAK_TIMER": "Untracked idle time resets take a break timer",
+      "MIN_IDLE_TIME": "Trigger idle after X",
+      "TITLE": "Idle Handling"
+    },
+    "IMEX": {
+      "HELP": "<p>Here you can export all your data as a <strong>JSON</strong> for backups, but also to use it in a different context (e.g. you might want to export your projects in the browser and import them into the desktop version). </p> <p>The import expects valid JSON to be copied into the text area. <strong>NOTE: Once you hit the import button all your current settings and data will be overwritten!</strong></p>",
+      "TITLE": "Import/Export"
+    },
+    "KEYBOARD": {
+      "ADD_NEW_NOTE": "Add new note",
+      "ADD_NEW_TASK": "Add New Task",
+      "APP_WIDE_SHORTCUTS": "Global Shortcuts (application wide)",
+      "COLLAPSE_SUB_TASKS": "Collapse Sub Tasks",
+      "EXPAND_SUB_TASKS": "Expand Sub Tasks",
+      "GLOBAL_ADD_NOTE": "Add new note",
+      "GLOBAL_ADD_TASK": "Add new task",
+      "GLOBAL_SHOW_HIDE": "Show/Hide Super Productivity",
+      "GLOBAL_TOGGLE_TASK_START": "Toggle time tracking for last active task",
+      "GO_TO_DAILY_AGENDA": "Go to Agenda",
+      "GO_TO_FOCUS_MODE": "Go to Focus Mode",
+      "GO_TO_SETTINGS": "Go to Settings",
+      "GO_TO_WORK_VIEW": "Go to Work View",
+      "HELP": "<p>Here you can configure all keyboard shortcuts.</p> <p>Click on the text input and enter the desired keyboard combination. Hit enter to save and Escape to abort.</p> <p>There are three types of shortcuts:</p> <ul> <li> <strong>Global shortcuts:</strong> When the app is running it will trigger the action from every other application. </li> <li> <strong>Application level shortcuts:</strong> Will trigger from every screen of the application, but not if you're currently editing a text field. </li> <li> <strong>Task level shortcuts:</strong> They will only trigger if you have selected a task via mouse or keyboard and usually trigger an action specifically related to that one task. </li> </ul>",
+      "MOVE_TASK_DOWN": "Move Task down in List",
+      "MOVE_TASK_UP": "Move Task up in List",
+      "MOVE_TO_BACKLOG": "Move Task to Task Backlog",
+      "MOVE_TO_TODAYS_TASKS": "Move Task to Today\"s Task List",
+      "OPEN_PROJECT_NOTES": "Show/Hide Project Notes",
+      "SELECT_NEXT_TASK": "Select next Task",
+      "SELECT_PREVIOUS_TASK": "Select previous Task",
+      "SYSTEM_SHORTCUTS": "Global Shortcuts (system wide)",
+      "TASK_ADD_SUB_TASK": "Add sub Task",
+      "TASK_DELETE": "Delete Task",
+      "TASK_EDIT_TITLE": "Edit Title",
+      "TASK_MOVE_TO_PROJECT": "Open move task to project menu",
+      "TASK_OPEN_ESTIMATION_DIALOG": "Edit estimation / time spent",
+      "TASK_SCHEDULE": "Schedule Task",
+      "TASK_SHORTCUTS": "Tasks",
+      "TASK_SHORTCUTS_INFO": "The following shortcuts apply for the currently selected task (selected via tab or mouse).",
+      "TASK_TOGGLE_ADDITIONAL_INFO_OPEN": "Show/Hide additional task info",
+      "TASK_TOGGLE_DONE": "Toggle Done",
+      "TITLE": "Keyboard Shortcuts",
+      "TOGGLE_BACKLOG": "Show/Hide Task Backlog",
+      "TOGGLE_BOOKMARKS": "Show/Hide Bookmark Bar",
+      "TOGGLE_PLAY": "Start/Stop Task",
+      "ZOOM_DEFAULT": "Zoom default (Desktop only)",
+      "ZOOM_IN": "Zoom in (Desktop only)",
+      "ZOOM_OUT": "Zoom out (Desktop only)"
+    },
+    "LANG": {
+      "AR": "Arabic",
+      "DE": "German",
+      "EN": "English",
+      "ES": "Spanish",
+      "FA": "Farsi",
+      "FR": "French",
+      "IT": "Italian",
+      "JA": "Japanese",
+      "KO": "Korean",
+      "LABEL": "Please select a language",
+      "NL": "Dutch",
+      "PT": "Portuguese",
+      "RU": "Russian",
+      "TITLE": "Language",
+      "TR": "Turkish",
+      "ZH": "Chinese"
+    },
+    "MISC": {
+      "DEFAULT_PROJECT": "Default project to use for tasks if none is specified",
+      "HELP": "<p><strong>Not seeing Desktop Notifications?</strong> For windows you might want to check System > Notifications & actions and check if the required notifications have been enabled.</p>",
+      "IS_AUTO_ADD_WORKED_ON_TO_TODAY": "Automatically add today tag to worked on tasks",
+      "IS_AUTO_MARK_PARENT_AS_DONE": "Mark parent task as done, when all sub tasks are done",
+      "IS_AUTO_START_NEXT_TASK": "Start tracking next task when marking current as done",
+      "IS_CONFIRM_BEFORE_EXIT": "Confirm before exiting the app",
+      "IS_DARK_MODE": "Dark Mode",
+      "IS_DISABLE_INITIAL_DIALOG": "Disable initial info dialog (you might miss important updates!)",
+      "IS_HIDE_NAV": "Hide navigation until main header is hovered (desktop only)",
+      "IS_NOTIFY_WHEN_TIME_ESTIMATE_EXCEEDED": "Notify when time estimate was exceeded",
+      "IS_TURN_OFF_MARKDOWN": "Turn off markdown parsing for notes",
+      "TITLE": "Misc Settings"
+    },
+    "POMODORO": {
+      "BREAK_DURATION": "Duration of short breaks",
+      "CYCLES_BEFORE_LONGER_BREAK": "Start longer break after X work sessions",
+      "DURATION": "Duration of work sessions",
+      "HELP": "<p>The pomodoro timer can be configured via a couple of settings. The duration of every work session, the duration of normal breaks, the number of work sessions to run before a longer break is started and the duration of this longer break.</p> <p>You can also set if you want to display your distractions during your pomodoro breaks.</p> <p>Setting \"Pause time tracking on pomodoro break\" will also track your breaks as work time spent on a task. </p> <p>Enabling \"Pause pomodoro session when no active task\" will also pause the pomodoro session, when you pause a task.</p>",
+      "IS_ENABLED": "Enable pomodoro timer",
+      "IS_MANUAL_CONTINUE": "Manually confirm starting next pomodoro session",
+      "IS_PLAY_SOUND": "Play sound when session is done",
+      "IS_PLAY_SOUND_AFTER_BREAK": "Play sound when break is done",
+      "IS_PLAY_TICK": "Play tick sound every second",
+      "IS_STOP_TRACKING_ON_BREAK": "Stop time tracking for task on break",
+      "LONGER_BREAK_DURATION": "Duration of longer breaks",
+      "TITLE": "Pomodoro Timer"
+    },
+    "SOUND": {
+      "DONE_SOUND": "Ljud för uppgift slutförd",
+      "IS_INCREASE_DONE_PITCH": "Öka tonhöjd för varje slutförd uppgift",
+      "IS_PLAY_DONE_SOUND": "Spela ett ljud när uppgift är markerad klar",
+      "TITLE": "Sound",
+      "VOLUME": "Volume"
+    },
+    "TAKE_A_BREAK": {
+      "HELP": "<div> <p>Låter dig konfigurera en återkommande påminnelse när du har arbetat under en viss tid utan att ta en paus.</p> <p>Du kan ändra meddelandet som visas. ${duration} ersätts med tiden utan paus.</p> </div>",
+      "IS_ENABLED": "Aktivera ta en paus påminnelse",
+      "IS_FOCUS_WINDOW": "Fokusera programfönster när påminnelse är aktiv (endast skrivbord)",
+      "IS_LOCK_SCREEN": "Lås skärm med när det är dags för paus (endast skrivbord)",
+      "MESSAGE": "Ta en paus meddelande",
+      "MIN_WORKING_TIME": "Trigga en ta en paus notifikation efter X arbete utan paus",
+      "MOTIVATIONAL_IMG": "Motivationsbild (web url)",
+      "TITLE": "Pauspåminnelse"
+    },
+    "TRACKING_REMINDER": {
+      "HELP": "Konfigurera en banderoll att visa om du glömt börja spåra tid.",
+      "TITLE": "Påminnelse om tidsspårning",
+      "L_IS_ENABLED": "Aktiverad",
+      "L_MIN_TIME": "Tid att vänta innan innan banderoll visas"
+    }
+  },
+  "GLOBAL_SNACK": {
+    "COPY_TO_CLIPPBOARD": "Kopiera till urklipp",
+    "ERR_COMPRESSION": "Fel för kompressionsgränssnitt",
+    "PERSISTENCE_DISALLOWED": "Data kommer inte att bestå permanent. Var medveten om att detta kan leda till dataförlust !!",
+    "RUNNING_X": "Kör \"{{str}}\".",
+    "SHORTCUT_WARN_OPEN_BOOKMARKS_FROM_TAG": "{{keyCombo}} tryckt, men öppna bokmärkesgenvägar är bara tillgängliga i projektkontext.",
+    "SHORTCUT_WARN_OPEN_NOTES_FROM_TAG": "{{keyCombo}} tryckt, men genvägen för öppna anteckningar är endast tillgänglig i projektkontext."
+  },
+  "GPB": {
+    "ASSETS": "Laddar tillgångar...",
+    "DBX_DOWNLOAD": "Dropbox: Ladda ner fil...",
+    "DBX_GEN_TOKEN": "Dropbox: Generera token...",
+    "DBX_META": "Dropbox: Hämta filmeta...",
+    "DBX_UPLOAD": "Dropbox: Ladda upp fil...",
+    "GDRIVE_DOWNLOAD": "Google Drive: Ladda ner fil...",
+    "GDRIVE_UPLOAD": "Google Drive: Ladda upp fil...",
+    "GITHUB_LOAD_ISSUE": "Github: Ladda issue data...",
+    "JIRA_LOAD_ISSUE": "Jira: Ladda issue data..."
+  },
+  "MH": {
+    "ADD_NEW_TASK": "Lägg till uppgift",
+    "CREATE_PROJECT": "Skapa projekt",
+    "CREATE_TAG": "Skapa tagg",
+    "DELETE_TAG": "Radera tagg",
+    "GO_TO_TASK_LIST": "Gå till uppgiftslista",
+    "MANAGE_PROJECTS": "Hantera projekt",
+    "METRICS": "Mätvärden",
+    "NOTES": "Anteckningar",
+    "PROCRASTINATE": "Prokrastinera",
+    "PROJECTS": "Projekt",
+    "PROJECT_MENU": "Projektmeny",
+    "PROJECT_SETTINGS": "Projektinställningar",
+    "SCHEDULED": "Schemalagda",
+    "SETTINGS": "inställningar",
+    "TAGS": "Taggar",
+    "TASKS": "Uppgifter",
+    "TASK_LIST": "Uppgiftslista",
+    "TOGGLE_SHOW_BOOKMARKS": "Visa/göm bokmärken",
+    "TOGGLE_SHOW_NOTES": "Visa/göm projektnoteringar",
+    "TOGGLE_TRACK_TIME": "Start/stopp tidsspårning",
+    "WORKLOG": "Arbetslogg"
+  },
+  "PDS": {
+    "BACK": "Vänta, jag glömde nåt!",
+    "BREAK_LABEL": "Paus (nr / tid)",
+    "CELEBRATE": "Ta en stund för att <i>fira!</i>",
+    "CLEAR_ALL_CONTINUE": "Radera alla färdiga och fortsätt",
+    "D_CONFIRM_APP_CLOSE": {
+      "CANCEL": "Nej, radera bara uppgifterna",
+      "MSG": "Ditt arbete är slutfört. Dags att gå hem!",
+      "OK": "Aj aj! Stänger ner!"
+    },
+    "EVALUATION": "Utvärdering",
+    "EXPORT_TASK_LIST": "Exportera uppgiftslista",
+    "NO_TASKS": "Det finns inga uppgifter för den här dagen",
+    "PLAN": "Plan",
+    "ROUND_15M": "Avrunda alla uppgifter till 15 minuter",
+    "ROUND_30M": "Avrunda alla uppgifter till 30 minuter",
+    "ROUND_5M": "Avrunda alla uppgifter till 5 minuter",
+    "ROUND_TIME_SPENT": "Avrunda spenderad tid",
+    "ROUND_TIME_SPENT_TITLE": "Avrunda tid spenderad på alla uppgifter. Var försiktig! Du kan inte ångra detta!",
+    "ROUND_TIME_WARNING": "!!! Var försiktig, detta kan inte ångras !!!",
+    "ROUND_UP_15M": "Avrunda UPP alla uppgifter till 15 minuter",
+    "ROUND_UP_30M": "Avrunda UPP alla uppgifter till 30 minuter",
+    "ROUND_UP_5M": "Avrunda UPP alla uppgifter till 5 minuter",
+    "SAVE_AND_GO_HOME": "Spara och gå hem",
+    "START_END": "Start – Slut",
+    "SUMMARY_FOR": "Daglig summering för {{dayStr}}",
+    "TASKS_COMPLETED": "Utförda uppgifter",
+    "TASK_LIST": "Uppgiftslista",
+    "TIME_SPENT_AND_ESTIMATE_LABEL": "Spenderad tid / Uppskattad tid",
+    "TIME_SPENT_ESTIMATE_TITLE": "Spenderad tid: Total tid spenderad idag. Arkiverade uppgifter ej inkluderade. – Uppskattad tid: Uppskattad tid för uppgifter du jobbat på idag minus tid spenderad på dem övriga dagar.",
+    "TODAY": "Today",
+    "WEEK": "Week"
+  },
+  "PM": {
+    "TITLE": "Projectmätvärden"
+  },
+  "PP": {
+    "ARCHIVED_PROJECTS": "Arkiverade projekt",
+    "ARCHIVE_PROJECT": "Arkivera projekt",
+    "CREATE_NEW": "Skapa nytt",
+    "DELETE_PROJECT": "Radera projekt",
+    "D_CONFIRM_ARCHIVE": {
+      "MSG": "Är du säker du vill arkivera detta projekt? Arkiverade projekt kommer inte längre visas i menyn och du kan inte komma åt dess data utan att återställa dem. Du rekommenderas säkerhetskopia din data innan du gör detta.",
+      "OK": "Arkivera"
+    },
+    "D_CONFIRM_DELETE": {
+      "MSG": "Är du säker du vill radera detta projekt? Du rekommenderas säkerhetskopia din data innan du gör detta.",
+      "OK": "Radera"
+    },
+    "D_CONFIRM_UNARCHIVE": {
+      "MSG": "Är du säker du vill avarkivera detta projekt?",
+      "OK": "Avarkivera"
+    },
+    "EDIT_PROJECT": "Redigera projekt",
+    "EXPORT_PROJECT": "Exportera projekt",
+    "GITHUB_CONFIGURED": "Github Integration konfigurerad",
+    "GITLAB_CONFIGURED": "Gitlab Integration konfigurerad",
+    "IMPORT_FROM_FILE": "Imporetera from fil",
+    "JIRA_CONFIGURED": "Jira Integration konfigurerad",
+    "S_INVALID_JSON": "Ogiltig json för projektfil",
+    "TITLE": "Projectöversikt",
+    "UN_ARCHIVE_PROJECT": "Ej arkiverade Projekt"
+  },
+  "PS": {
+    "GLOBAL_SETTINGS": "Globala inställningar",
+    "ISSUE_INTEGRATION": "Issue integration",
+    "PRIVATE_POLICY": "Privat policy",
+    "PRODUCTIVITY_HELPER": "Produktivitetshjälpare",
+    "PROJECT_SETTINGS": "Projektspecifika inställningar",
+    "SYNC_EXPORT": "Synkronisering & export",
+    "TAG_SETTINGS": "Taggspecifika inställningar",
+    "TOGGLE_DARK_MODE": "Växla mörkt läge"
+  },
+  "S": {
+    "SYNC": {
+      "ERROR_FALLBACK_TO_BACKUP": "Någonting gick fel under import av data. Återgår till kopia av lokal data.",
+      "ERROR_INVALID_DATA": "Fel under synkronisering. Ogiltig data",
+      "IMPORTING": "Imporeterar data",
+      "SUCCESS": "Data importad"
+    }
+  },
+  "SCHEDULE": {
+    "NO_SCHEDULED": "Det finns för närvarande inga schemalagda uppgifter. Du kan schemalägga en uppgift genom att välja  \"Schemalägg uppgift\" i uppgiftsmenyn. För att öppna den klicka på de 3 små prockarna till höger om en uppgift.",
+    "START_TASK": "Välj en uppgift och ta bort påminnelse"
+  },
+  "THEMES": {
+    "SELECT_THEME": "Select Theme",
+    "amber": "bärnsten",
+    "blue": "blå",
+    "blue-grey": "blå-grå",
+    "cyan": "cyan",
+    "deep-orange": "mörkorange",
+    "deep-purple": "mörklila",
+    "green": "grön",
+    "indigo": "indigo",
+    "light-blue": "ljusblå",
+    "light-green": "ljusgrön",
+    "lime": "lime",
+    "pink": "rosa",
+    "purple": "lila",
+    "teal": "kricka",
+    "yellow": "gul"
+  },
+  "V": {
+    "E_1TO10": "Ange ett värde mellan 1 och 10",
+    "E_DATETIME": "Angivet värde är inte ett datum/tid!",
+    "E_MAX": "Bör inte vara större än {{val}}",
+    "E_MAX_LENGTH": "Bör vara max {{val}} characters long",
+    "E_MIN": "Bör vara mindre än {{val}}",
+    "E_MIN_LENGTH": "Måste vara minst {{val}} tecken långt",
+    "E_PATTERN": "Ogiltig inmatning",
+    "E_REQUIRED": "Detta fält krävs"
+  },
+  "WW": {
+    "ADD_MORE": "Lägg till fler",
+    "ADD_SOME_TASKS": "Lägg till några uppgifter för att planera din dag!",
+    "COMPLETED_TASKS": "Utförda uppgifter",
+    "ESTIMATE_REMAINING": "Uppskattning kvar:",
+    "FINISH_DAY": "Avsluta dag",
+    "HELP_PROCRASTINATION": "Hjälp, jag prokrastinerar!",
+    "NO_COMPLETED_TASKS": "Det finns för närvarande inga slutförda uppgifter",
+    "NO_PLANNED_TASKS": "Inga planerade uppgifter",
+    "READY_TO_WORK": "Redo att jobba!",
+    "RESET_BREAK_TIMER": "Återställ utan pausur",
+    "TIME_ESTIMATED": "Beräknad tid:",
+    "WITHOUT_BREAK": "Utan rast:",
+    "WORKING_TODAY": "Arbetar idag:"
+  }
+}
